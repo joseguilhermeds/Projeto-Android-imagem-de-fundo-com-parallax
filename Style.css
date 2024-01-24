@@ -20,18 +20,25 @@
     --cor4:#9BF2EA;
     --cor5:#275950;
     --cor6:#260101;
+    --cor7:#7FDBFF;
+    --cor8:#FFF017;
+
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', sans-serif;
     --fonte-Android:'Android'; 
 }
 
 body {
-    background-color:#A3AB78;
+    background-image: url(imagens/pirulito.jpg);
+    background-position: center center;
+    background-size: 100%;
     font-family:var(--fonte-padrao);
+
+
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor5), var(--cor2), var(--cor6) );
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5), var(--cor6));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -39,9 +46,9 @@ header{
 }
 
 header h1{
-    color:var(--cor0);
+    color:white;
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 4em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px black;
