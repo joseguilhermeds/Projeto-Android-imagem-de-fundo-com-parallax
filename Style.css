@@ -29,7 +29,7 @@
 }
 
 body {
-    background-image: url(imagens/pirulito.jpg);
+    background: url(imagens/pirulito.jpg) fixed;
     background-position: center center;
     background-size: 100%;
     font-family:var(--fonte-padrao);
